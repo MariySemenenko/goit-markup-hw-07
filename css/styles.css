@@ -40,7 +40,7 @@
 
 /* змінні */
 
-/* :root {
+ :root {
   --paragraph-primary-color: #434455;
   --title-primary-color: #2e2f42;
   --title-secondary-color: #ffffff;
@@ -50,12 +50,12 @@
   --contacts-link-color: #434455;
   --link-hover-color: #4d5ae5;
   --byn-background-color: #f4f4fd;
-} */
+} 
 
 
-/* скидаємо глобальні стилі */
+ /* скидаємо глобальні стилі */ 
 
-/* body {
+ body {
   background-color: var(--background-primary-color);
   color: var(--background-primary-color);
   font-family: 'Roboto', sans-serif;
@@ -80,11 +80,11 @@ text-decoration: none;
 
 .nav-link-no-decoration {
   text-decoration: none
-} */
+} 
 
 /* скидаємо верхні і нижні зовнішні відступи */
 
-/* h1,
+ h1,
 h2,
 h3,
 h4,
@@ -102,7 +102,7 @@ p {
 
 img {
   display: block;
-} */
+} 
 
 /*контейнер */
 
@@ -115,7 +115,7 @@ img {
 
 /* ховаємо заголовки */
 
-/* .visually-hidden {
+ .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -127,22 +127,21 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-} */
+} 
 
 
 
 /*header*/
 /* 0-1158px */
-@media screen and (max-width:1158px) {
+/* @media screen and (max-width:1158px) {
   
-}
+} */
 
 /* 0-767px */
-@media screen and (max-width: 767px) {
-
 .nav-list {
-  display: none;
+display: none;
 }
+
 
 .contacts {
   display: none;
@@ -153,7 +152,7 @@ img {
   padding: 0;
   height: 32px;
 }
-}
+
 
 .page-header {
   padding-top: 24px;
@@ -176,46 +175,46 @@ img {
     display: flex;
     align-items: center;
   }
-  .nav-list {
+  .nav-list-mobile {
     display: flex;
     align-items: center;
   }
-  .nav-link {
-    color: var(--nav-link-color);
+  .nav-link-mobile {
+    color: #4D5AE5;
     font-weight: 600;
     line-height: 1.33;
     letter-spacing: 0.02em;
   
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   } 
-  .nav-link:hover,
-.nav-link:focus,
+  .nav-link-mobile:hover,
+.nav-link-mobile:focus,
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--link-hover-color);
 }
-.nav-list {
+.nav-list-mobile {
   display: flex;
   margin: 0px;
   padding: 0px;
   margin-left: 123px;
 } 
- .nav-list .nav-link {
+ .nav-list-mobile .nav-link-mobile {
    display: block; 
   padding-top: 24px;
   padding-bottom: 24px;
  }
- .nav-link.no-decoration {
+ .nav-link-mobile.no-decoration {
   position: relative;
 }
 .no-decoration {
   text-decoration: none;
 }
 
-.nav-link.no-decoration:hover::after {
+.nav-link-mobile.no-decoration:hover::after {
   opacity: 1;
 }
-.nav-link.no-decoration::after {
+.nav-link-mobile.no-decoration::after {
   content: "";
 
   display: block;
@@ -229,14 +228,14 @@ img {
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-item {
+.nav-item-mobile {
   color: #2E2F42;
   font-weight: 600;
   line-height: 1.33;
   letter-spacing: 0.02em;
 } 
 
-.nav-item:not(:last-child) {
+.nav-item-mobile:not(:last-child) {
   margin-right: 40px;
  }
 }
@@ -303,6 +302,7 @@ transition: opacity 250ms linear, visibility 250ms linear;
 
 
 /* logo */
+
 
 /* .page-header {
   margin-bottom: 0;
@@ -393,16 +393,7 @@ transition: opacity 250ms linear, visibility 250ms linear;
  }
 
 
- .nav-list {
-  display: flex;
-  margin: 0px;
-  padding: 0px;
-} 
- .nav-list .nav-link {
-   display: block; 
-  padding-top: 24px;
-  padding-bottom: 24px;
- }  */
+  */
 
   /* contacts */
 /* 

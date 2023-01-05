@@ -314,10 +314,7 @@ img {
   background-size: cover;
   background-clip: border-box;
   
-  background-image: -webkit-image-set(
-    url("../images/imagesindex/hero-mobile.webp") 1x,
-    url("../images/imagesindex/hero-mobile_2x.webp") 2x
-  );
+ 
   background-image: linear-gradient(rgba(47, 48, 58, 0.7), rgba(47, 48, 58, 0.7)), url(../images/mobile-first/fon-hero.jpg);
 }
 

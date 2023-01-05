@@ -196,8 +196,11 @@ img {
   /* @media screen and (min-width: 768px) {
 
   } */
+/* ========================================= */
+
 
   /* MOBILE MENU */
+
 /* 0-767 */
 
 @media screen and (max-width: 767px) {
@@ -218,11 +221,9 @@ img {
     top: 0;
     left: 0;
     background-color: rgba(255, 255, 255, 1);
-
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
     transition: opacity 250ms linear, visibility 250ms linear;
   }
 
@@ -253,7 +254,52 @@ img {
 /* =========================================================== */
 
 
+@media screen and (max-width: 767px) {
 
+  .hero-title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.11;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: var(--title-secondary-color);
+      margin-top: 0;
+      padding-left: 54px;
+      padding-right: 56px;
+      height: 80px;
+      margin-bottom:72px; 
+      margin-top: 112px;
+      
+  }
+
+  .hero-btn {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0;
+  
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .hero-btn:hover, 
+  .hero-btn:focus {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  background-color: #404BBF;
+  }
+
+  .hero-btn {
+    background-color: var(--brand-color);
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+    color: var(--title-secondary-color);
+    cursor: pointer;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    margin-bottom: 188px;
+  }
+  }
 
 
 /* 0-428 */
@@ -306,16 +352,16 @@ img {
 }
 
 .hero__sections {
+  
   padding-top: 24px;
   padding-bottom: 24px;
   min-height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-clip: border-box;
-  
  
-  background-image: linear-gradient(rgba(47, 48, 58, 0.7), rgba(47, 48, 58, 0.7)), url(../images/mobile-first/fon-hero.jpg);
+ 
+  background-image: linear-gradient(rgba(47, 48, 58, 0.7), rgba(47, 48, 58, 0.7)), url(../images/mobile-first/mobile-people-office@2x.jpg);
 }
 
 .header-conteiner {
@@ -468,22 +514,14 @@ background-repeat: no-repeat;
 background-position: center;
 }   */
 
-/* box-shadow */
-/* 
-.hero-btn {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: 0;
 
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.hero-btn:hover, 
-.hero-btn:focus {
-box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-background-color: #404BBF;
-}*/
 
-.hero-title {
+
+
+
+
+/* .hero-title {
   font-weight: 600;
   font-size: 56px;
   line-height: 1.07;
@@ -493,22 +531,9 @@ background-color: #404BBF;
   width: 492px; 
   text-align: center;
   margin: 0 auto 48px auto; 
-}
+} */
 /*
-.hero-btn {
-  background-color: var(--brand-color);
-  font-family: inherit;
-  font-weight: 600;
-  line-height: 1.18;
-  letter-spacing: 0.04em;
-  color: var(--title-secondary-color);
-  cursor: pointer;
-  padding-top: 16px;
-  padding-right: 32px;
-  padding-bottom: 16px;
-  padding-left: 32px;
-  margin-bottom: 188px;
-}
+
 
 .section-title {
   font-weight: 600;

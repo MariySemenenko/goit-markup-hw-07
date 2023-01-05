@@ -184,7 +184,7 @@ img {
   }
 
   .nav-item-mobile:not(:last-child) {
-    margin-right: 40px;
+    margin-bottom: 40px;
   }
 }
   /* ======================================================== */
@@ -249,6 +249,7 @@ img {
     padding: 0;
     line-height: 0;
   }
+
   
 }
 /* =========================================================== */
@@ -257,20 +258,20 @@ img {
 @media screen and (max-width: 767px) {
 
   .hero-title {
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 1.11;
-      text-align: center;
-      letter-spacing: 0.02em;
-      color: var(--title-secondary-color);
-      margin-top: 0;
-      padding-left: 54px;
-      padding-right: 56px;
-      height: 80px;
-      margin-bottom:72px; 
-      margin-top: 112px;
-      
-  }
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--title-secondary-color);
+    margin-top: 0;
+    padding-left: 54px;
+    padding-right: 56px;
+    height: 80px;
+    margin-bottom:72px; 
+    margin-top: 112px;
+    
+}
 
   .hero-btn {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -298,6 +299,8 @@ img {
     padding-bottom: 16px;
     padding-left: 32px;
     margin-bottom: 188px;
+    margin-left: 129px;
+    margin-right: 130px;
   }
   }
 
@@ -308,7 +311,9 @@ img {
     width: 396px;
     margin-left: auto;
     margin-right: auto;
-  }  
+  } 
+  
+  
 }
 
 
@@ -321,6 +326,7 @@ img {
   .mobile-menu {
     display: none;
   }
+  
 }
 
 

@@ -2,12 +2,11 @@
 /* планшет 768+ */
 @media screen and (min-width: 768px) {
     .nav-list {
-      display: block;
+      display: flex;
     }
-
   
     .contacts {
-      display: block;
+      display: flex;
     }
   
     .mobile-menu-open {
@@ -94,8 +93,17 @@
   } */
 
   /* MOBILE MENU */
+/* 0-767 */
 
   @media screen and (max-width: 767px) {
+
+    .nav-list {
+      display: none;
+    }
+    
+    .contacts {
+      display: none;
+    }
     .mobile-menu {
       position: fixed;
       width: 100%;

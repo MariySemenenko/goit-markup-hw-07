@@ -323,8 +323,13 @@ img {
 @media screen and (min-width: 768px) {
   .hero-title {
     font-size: 56px;
-    width: 494px;
+    position: absolute;
+width: 318px;
+height: 80px;
+left: 54px;
+top: 182px;
   }
+
 }
 
 
@@ -350,7 +355,7 @@ img {
 
 }
 .hero-title {
-  font-size: 56px;
+  /* font-size: 56px; */
   width: 494px;
 }
 

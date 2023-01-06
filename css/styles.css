@@ -219,7 +219,10 @@ img {
     margin-left: auto;
     margin-right: auto;
   }  
-  
+  .hero-title {
+    width: 318px;
+    font-size: 36px;
+  }
 }
 
 /* планшет 768+ */

@@ -20,7 +20,7 @@
 }
 
 /* скидаємо глобальні стилі */
-
+/* скидаємо врхні і нижні зовнішні відступи */
 body {
   background-color: var(--background-primary-color);
   color: var(--background-primary-color);
@@ -117,6 +117,43 @@ img {
   .contacts {
     display: none;
   }
+}
+
+/* ==================== */
+ 
+
+.header-conteiner {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+/* =================== */
+/* logo */
+
+.page-header {
+  margin-bottom: 0;
+}
+
+.logo {
+  color: var(--brand-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-accent {
+  color: var(--title-primary-color);
+} 
+
+@media screen and (max-width: 767px) {
   .mobile-menu {
     position: fixed;
     width: 100%;
@@ -153,15 +190,13 @@ img {
     border: none;
     padding: 0;
     line-height: 0;
-  }
-  
-}
+  } 
 
 
-/* =========================================================== */
 
 
-@media screen and (max-width: 767px) {
+
+
 
   .hero-title {
     font-weight: 700;
@@ -239,7 +274,7 @@ img {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .nav-list {
     display: flex;
   }
@@ -250,6 +285,8 @@ img {
 
   .mobile-menu-open {
     display: none;
+    background-color: transparent;
+    border: ;
   }
   .nav {
     display: flex;
@@ -375,9 +412,7 @@ top: 182px;
   height: 32px;
 }
 
-.header-conteiner {
-  background-color: #fff;
-}
+
 
 .hero__sections {
   
@@ -392,11 +427,7 @@ top: 182px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.7), rgba(47, 48, 58, 0.7)), url(../images/mobile-first/mobile-people-office@2x.jpg);
 }
 
-.header-conteiner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 
 /* .sections {
   max-width: 1440px;
@@ -410,7 +441,7 @@ top: 182px;
 
 /* logo */
 
- .page-header {
+ /* .page-header {
   margin-bottom: 0;
 }
 
@@ -426,7 +457,7 @@ top: 182px;
 
 .logo-accent {
   color: var(--title-primary-color);
-} 
+}  */
 
 /* підкреслюємо лого */
 

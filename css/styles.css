@@ -105,7 +105,7 @@ img {
   /* планшет 768+ */
 @media screen and (min-width: 768px) {
   .conteiner {
-    width: 736px;
+    /* width: 736px; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -255,23 +255,20 @@ img {
 
 /* =========================================================== */
 
-
+/* 0-767 */
 @media screen and (max-width: 767px) {
 
   .hero-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--title-secondary-color);
-    margin-top: 0;
-    padding-left: 54px;
-    padding-right: 56px;
-    height: 80px;
-    margin-bottom:72px; 
-    margin-top: 112px;
-    
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+width: 318px;
+margin-top: 0;
+margin: 0 auto 72px auto;
+padding-top: 112px; 
 }
 
   .hero-btn {
@@ -303,14 +300,52 @@ img {
     margin-left: 129px;
     margin-right: 130px;
   }
-}
+     .hero__sections {
+  
+    padding-top: 24px;
+    padding-bottom: 24px;
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+url(../images/mobile-first/hero-mobile1x.jpg);
+  }  
+} 
+/* ========================================================================================== */
+ @media screen and (min-width: 768px) {
+  .hero__sections {
+min-width: 768px; 
+margin: 0 auto;
+background-color: #2E2F42;
+padding: 112px 0;
+text-align: center;
+background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+url(../images/mobile-first/hero-tab1x.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  }
+} 
+
+  @media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-width: 768px)
+ {
+      .hero__sections {
+      background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/mobile-first/hero-tab2x.jpg);
+       }
+   }  
 
 /*====================== */
   
-  .hero-title {
+  /* .hero-title {
     width: 318px;
     font-size: 36px;
-  }
+  } */
+/* ======================= */
 
 /* 767+ */
 @media screen and (min-width: 767px) {
@@ -324,7 +359,7 @@ img {
   }
 
   .contacts {
-    display: flex;
+    display: block;
   }
 
   .mobile-menu-open {
@@ -345,9 +380,7 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   } 
 
-   .nav-link-mobile:hover,
   .nav-link-mobile:focus,
-  .contacts-link:hover,
   .contacts-link:focus {
     color: var(--link-hover-color);
   }
@@ -385,11 +418,63 @@ img {
   }
 
 } 
-
+/* 768 +*/
 @media screen and (min-width: 768px) {
   .hero-title {
-    font-size: 56px;
-    width: 494px;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+width: 494px;
+margin-top: 0;
+margin: 0 auto 40px auto;
+   }
+
+   .contacts {
+    padding-top: 24px;
+    padding-bottom: 10px;
+  } 
+  .contacts-link  {
+
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.04em;
+color: #434455;
+  }
+  .contacts-link-retreat {
+    padding-bottom: 4px;
+  }
+  .hero-btn {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0;
+  
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .hero-btn:hover, 
+  .hero-btn:focus {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  background-color: #404BBF;
+  }
+
+  .hero-btn {
+    background-color: var(--brand-color);
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+    color: var(--title-secondary-color);
+    cursor: pointer;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    margin-bottom: 188px;
+    margin-left: 129px;
+    margin-right: 130px;
   }
 }
 
@@ -405,43 +490,35 @@ img {
 
 
 
-
+/* 1200+ */
 /* ======================================================= */
 
  @media screen and (min-width: 1200px) {
 
-}
+
 .hero-title {
   font-size: 56px;
   width: 494px;
+  margin: 0 auto 80px auto;
 }
-.hero-title {
+/* .hero-title {
 width: 373px;
 font-size: 36px;
 margin: 0 auto 80px auto;
+} */
+.contacts {
+  display: flex;
+}
+.contacts-link-retreat {
+  padding-right: 40px;
+}  
 }
 /* ========================================================== */
-/* .nav-list {
-  display: none;
-}
-.contacts {
-  display: none;
-} */
 
 
 
-.hero__sections {
-  
-  padding-top: 24px;
-  padding-bottom: 24px;
-  min-height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
- 
- 
-  background-image: linear-gradient(rgba(47, 48, 58, 0.7), rgba(47, 48, 58, 0.7)), url(../images/mobile-first/mobile-people-office@2x.jpg);
-}
+
+
 
 .header-conteiner {
   display: flex;
@@ -476,6 +553,7 @@ margin: 0 auto 80px auto;
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-right: 123px;
 }
 
 .logo-accent {

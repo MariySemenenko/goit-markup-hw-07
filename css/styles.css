@@ -1,9 +1,6 @@
 
 
-.conteiner {
-  padding-left: 16px;
-  padding-right: 16px;
-}
+
 
 /* змінні */
 
@@ -20,12 +17,6 @@
 }
 
 /* скидаємо глобальні стилі */
-
-body {
-  background-color: var(--background-primary-color);
-  color: var(--background-primary-color);
-  font-family: 'Roboto', sans-serif;
-}
 
 ul {
   list-style: none;
@@ -47,7 +38,6 @@ ul {
   text-decoration: none;
 }
 
-/* скидаємо верхні і нижні зовнішні відступи */
 
 h1,
 h2,
@@ -68,15 +58,17 @@ ul {
 img {
   display: block;
 }
+body {
+  background-color: var(--background-primary-color);
+  color: var(--background-primary-color);
+  font-family: 'Roboto', sans-serif;
+}
 
-/*контейнер */
-
-/* .conteiner {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-} */
+.conteiner {
+  position: relative;
+  padding-left: 16px;
+  padding-right: 16px;
+}
 
 /* ховаємо заголовки */
 
@@ -94,10 +86,10 @@ img {
   overflow: hidden;
 }
 /* ====================================================== */
-
+/* tel */
 @media screen and (min-width: 480px) {
   .conteiner {
-     width: 428px; 
+    width: 428px; 
     margin-left: auto;
     margin-right: auto;
   }
@@ -106,14 +98,12 @@ img {
 @media screen and (min-width: 768px) {
   .conteiner {
     width: 736px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
   @media screen and (min-width: 1200px) {
     .conteiner {
-      width: 1158px;
+      width: 1168px;
     }
   }
 /* ========================================= */
@@ -323,15 +313,7 @@ url(../images/mobile-first/hero-mobile1x.jpg);
   
   /*  <!-- features --> */
  
-  .item-title {
-    padding-bottom: 8px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-  }
+   
   .features-list {
     padding-bottom: 96px;
   }
@@ -534,6 +516,22 @@ flex-basis:calc((100%-24px)/2);
   .works {
     display: none;
   }
+  .item-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-primary-color); 
+  }
+  .item-title {
+    padding-bottom: 8px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+  } 
 } 
 
   /* ======================================================== */
@@ -587,13 +585,13 @@ margin: 0 auto 80px auto;
 flex-basis: calc((100% - 72px) / 4);
 }
 
-.item-title {
-  font-weight: 600;
+ .item-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-primary-color); 
-}
+} 
 
 .description {
   line-height: 1.5;
@@ -640,6 +638,31 @@ flex-basis: calc((100% - 72px) / 4);
   text-transform: capitalize;
   color: var(--title-primary-color);
 } 
+
+
+
+/* Our Team */
+
+  .social-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 12px;
+}
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #31D0AA;
+}  
  }
 /* ========================================================== */
 
@@ -838,13 +861,13 @@ background-position: center;
   flex-basis: calc((100% - 72px) / 4);
 } 
 */
-.item-title {
+/* .item-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-primary-color); 
-}
+} */
 
 .description {
   line-height: 1.5;
@@ -921,7 +944,7 @@ background-position: center;
 
 /* Our Team */
 
-/* .social-list {
+ /* .social-list {
   display: flex;
   justify-content: space-between;
   gap: 24px;
@@ -940,7 +963,7 @@ background-position: center;
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: #31D0AA;
-} */
+}  */
 
 /* customers */
 

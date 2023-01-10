@@ -97,7 +97,7 @@ img {
 
 @media screen and (min-width: 480px) {
   .conteiner {
-     width: 396px; 
+     width: 428px; 
     margin-left: auto;
     margin-right: auto;
   }
@@ -561,12 +561,56 @@ margin: 0 auto 80px auto;
 .contacts-link-retreat {
   padding-right: 40px;
 }  
-/* <!-- features --> */
+/* <!-- features ====================================--> */
+
 .icon-communication {
   display: flex;
 }
+.features {
+  padding-top: 120px;
+} 
+.features-list {
+  display: flex;
+  
+}
+.features-item {
+  width: 264px;
+}
+ .features-list .item-title {
+  margin-bottom: 8px;
+  margin-top: 0px;
+  
+} 
+.features-item {
+flex-basis: calc((100% - 72px) / 4);
+}
+
+.item-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-primary-color); 
+}
+
+.description {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--paragraph-primary-color);
+  padding-bottom: 72px;
+} 
+
+.icon-features {
+  background-color: #F4F4FD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
 
 }
+ }
 /* ========================================================== */
 
 

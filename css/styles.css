@@ -235,16 +235,63 @@ body {
     padding: 0;
     line-height: 0;
   }
-  /* .nav-link {
-    width: 109px;
-    height: 40px;
-    color: var(--nav-link-color);
-    font-weight: 700;
-    line-height: 40px;
+
+  .footer {
+    background-color: var(--title-primary-color);
+    padding: 100px 0;
+  }
+  .logo-footer {
+    color: var(--background-primary-color);
+  }
+  
+  .footer .logo {
+    margin-bottom: 188px;
+  }
+  
+  .footer-desc {
+    width: 264px;
+    margin-top: 16px;
+  } 
+  
+  /* footer decoration ---------------------------*/
+  
+   .footer .conteiner {
+    display: block;
+  }
+  .footer-icon-div {
+    width: 208px;
+    height: 80px;
+    margin-left: 120px;
+  }
+  
+  .footer-icon-text {
     letter-spacing: 0.02em;
-    font-size: 36px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  } */
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .footer-icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 40px;
+    height: 40px;
+  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .footer-icon-link:hover,
+  .footer-icon-link:focus {
+    background-color: #31d0aa;
+  }  
+
 }
 
 
@@ -317,9 +364,7 @@ url(../images/mobile-first/hero-mobile1x.jpg);
   .features-list {
     padding-bottom: 96px;
   }
-   /* .description:not(:last-child) {
-padding-bottom: 72px;
-  }  */
+
   .description {
     padding-bottom: 72px;
     font-weight: 500;
@@ -379,18 +424,6 @@ color: #434455;
 .customers-li {
   flex-basis: calc((100% - 24px)/2);
 }
-
-
-/* .customers-li:not(:nth-child(3n + 3)) {
-  margin-right: 24px;
-} */
-
-/* .customers-li:not(:last-child) {
-  margin-bottom: 72px;
-}
-.customers-li:nth-child(2n+1) {
-        margin-right: 16px;
-      } */
 
 .customers-li {
   width: 190px;
@@ -604,9 +637,6 @@ color: #434455;
 .features-item-mobile {
 flex-basis:calc((100%-24px)/2);
 }
-  /* .features-item-mobile:not(:last-child) {
-  margin-right: 24px;
-}  */
 }
 @media screen and (min-width: 768px) and (max-width: 1200) { 
   .features-item-mobile {
@@ -646,10 +676,6 @@ flex-basis:calc((100%-24px)/2);
 } 
  }
 
-  /* ======================================================== */
-
-
-
 
 /* 1200+ */
 /* ======================================================= */
@@ -662,11 +688,7 @@ flex-basis:calc((100%-24px)/2);
   width: 494px;
   margin: 0 auto 80px auto;
 }
-/* .hero-title {
-width: 373px;
-font-size: 36px;
-margin: 0 auto 80px auto;
-} */
+
 .contacts {
   display: flex;
 }
@@ -730,7 +752,6 @@ flex-basis: calc((100% - 72px) / 4);
 }
 .works-list {
   display: flex;
-  /* flex-wrap: wrap; */
   gap: 24px;
   padding: 0;
   margin: 0; 
@@ -887,8 +908,11 @@ flex-basis: calc((100% - 72px) / 4);
 .footer-icon-link:focus {
   background-color: #31d0aa;
 }
-
+.logo-accent {
+  color: var(--background-primary-color);
  }
+
+}
 /* ========================================================== */
 /* стилі для планшету----------- */
 @media screen and (min-width:768px) and (max-width: 1199px) {
@@ -904,7 +928,6 @@ flex-basis: calc((100% - 72px) / 4);
     padding-right: 16px;
     padding-bottom: 32px;
     padding-left: 16px;
-    /* text-align: center; */
   }
 
   /* COSTOMER--------------- */
@@ -923,30 +946,16 @@ flex-basis: calc((100% - 72px) / 4);
 .customers-li {
   flex-basis: calc((100% - 24px)/4);
 }
-/* .customers-li:not(:nth-child(3n + 3)) {
-  margin-right: 24px;
-} */
-
-/* .customers-li::not(:nth-child(3n+3)) {
-  margin-right: 24px;
-} */
-/* .customers-li:nth-child(2n+1) {
-        margin-right: 16px;
-      } */
 
 .customers-li {
- 
   cursor: pointer;
   margin: 0;
   padding: 0;
   border-radius: 4px;
 }
-
-  
+ 
 .customers-use {
   border: 1px solid #8e8f99;
-  /* height: 100%;
-  width: 100%; */
   width: 168px;
   height: 88px;
   fill: #8e8f99;
@@ -1450,7 +1459,8 @@ background-position: center;
 
 /* Footer */
 /* --------------------------------------------------------------------------------------------- */
-/* .footer {
+/* 
+.footer {
   background-color: var(--title-primary-color);
   padding: 100px 0;
 }
@@ -1504,11 +1514,11 @@ background-position: center;
 .footer-icon-link:hover,
 .footer-icon-link:focus {
   background-color: #31d0aa;
-}  */
+}  
 /* --------------------------------------------------------------------------------------- */
-/* div class mailing */
 
-.mailing-form {
+
+ .mailing-form {
   display: flex;
   justify-content: space-between;
 }
@@ -1566,7 +1576,7 @@ background-position: center;
 .icon-send {
   margin-left: 16px;
   fill: rgba(255, 255, 255, 1);
-}
+} 
 
 /* model window */
 

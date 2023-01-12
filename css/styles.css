@@ -1161,11 +1161,12 @@ flex-basis: calc((100% - 72px) / 4);
 
   .footer .conteiner {
   display: flex;
+  padding-left: 108px;
 }
 .footer-icon-div {
   width: 208px;
   height: 80px;
-  margin-left: 120px;
+  margin-left: 24px;
 }
 
 .footer-icon-text {

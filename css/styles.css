@@ -737,6 +737,9 @@ flex-basis:calc((100%-24px)/2);
   .features-item-mobile {
     margin-right: 24px; 
   }
+  .footer-decoration {
+    flex-wrap: wrap;
+  }
 }
 /* ========================================================= */
 
@@ -1162,6 +1165,7 @@ flex-basis: calc((100% - 72px) / 4);
   .footer .conteiner {
   display: flex;
   padding-left: 108px;
+  flex-wrap: wrap;
 }
 .footer-icon-div {
   width: 208px;
@@ -1200,6 +1204,7 @@ flex-basis: calc((100% - 72px) / 4);
  /* MAILING----------------- */
 
  .mailing-title {
+  margin-top: 72px;
   margin-bottom: 16px;
   margin-left: 80px;
   color: #ffffff;

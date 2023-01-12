@@ -475,6 +475,75 @@ color: #434455;
   justify-content: space-between;
 }
 
+.text_centre {
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+/* MAILING------------------------ */
+
+.mailing-title {
+  margin-bottom: 16px;
+  margin-left: 80px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.mailing-input {
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-right: 24px;
+  margin-left: 80px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+}
+.mailing-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.mailing-input:hover,
+.mailing-input:focus {
+  border: 1px solid rgba(77, 90, 229, 1);
+}
+
+.mailing-btn {
+  outline: none;
+  width: 165px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  
+
+  background-color: rgba(77, 90, 229, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  border: none;
+}
+
+.icon-send {
+  margin-left: 16px;
+  fill: rgba(255, 255, 255, 1);
+}
+.text_centre {
+display: flex;
+text-align: center;
+justify-content: center;
+}
+
 } 
 
 /* ========================================================================================== */
@@ -928,6 +997,62 @@ flex-basis: calc((100% - 72px) / 4);
   display: flex;
   justify-content: space-between;
 }
+/* MAILING--------------------- */
+
+.mailing-title {
+  margin-bottom: 16px;
+  margin-left: 80px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.mailing-input {
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-right: 24px;
+  margin-left: 80px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+}
+.mailing-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.mailing-input:hover,
+.mailing-input:focus {
+  border: 1px solid rgba(77, 90, 229, 1);
+}
+
+.mailing-btn {
+  width: 165px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 56px;
+
+  background-color: rgba(77, 90, 229, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  border: none;
+}
+
+.icon-send {
+  margin-left: 16px;
+  fill: rgba(255, 255, 255, 1);
+} 
 
 }
 /* ========================================================== */
@@ -1535,12 +1660,12 @@ background-position: center;
 /* --------------------------------------------------------------------------------------- */
 
 
- /* .mailing-form {
+  /* .mailing-form {
   display: flex;
   justify-content: space-between;
-} */
+}  */
 
-.mailing-title {
+/* .mailing-title {
   margin-bottom: 16px;
   margin-left: 80px;
   color: #ffffff;
@@ -1593,8 +1718,8 @@ background-position: center;
 .icon-send {
   margin-left: 16px;
   fill: rgba(255, 255, 255, 1);
-} 
-
+}  */
+/* ------------------------------------------------------------------------ */
 /* model window */
 
 .backdrop {

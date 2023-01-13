@@ -1214,6 +1214,11 @@ flex-basis: calc((100% - 72px) / 4);
   letter-spacing: 0.02em;
 }
 
+.mailing-form {
+  display: flex;
+  justify-content: space-between;
+}
+
 .mailing-input {
   width: 264px;
   height: 40px;
@@ -1242,7 +1247,7 @@ flex-basis: calc((100% - 72px) / 4);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 56px;
+  margin-left: 25px;
 
   background-color: rgba(77, 90, 229, 1);
   color: rgba(255, 255, 255, 1);

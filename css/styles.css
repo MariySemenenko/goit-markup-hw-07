@@ -759,7 +759,7 @@ flex-basis:calc((100%-24px)/2);
   .item-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--title-primary-color);
 } 
@@ -1079,6 +1079,14 @@ flex-basis: calc((100% - 72px) / 4);
     padding-bottom: 32px;
     padding-left: 16px;
   }
+  .description {
+    padding-bottom: 72px;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+      }
 
   /* LOGO */
 
@@ -1343,8 +1351,6 @@ flex-basis: calc((100% - 72px) / 4);
   text-transform: capitalize;
   color: var(--title-primary-color);
 } */
-
-
 
 .description {
   line-height: 1.5;

@@ -300,6 +300,10 @@ body {
 /* 0-767 */
 @media screen and (max-width: 767px) {
 
+.section {
+  padding-top: 96px;
+}
+
   .hero-title {
 font-weight: 700;
 font-size: 36px;
@@ -309,7 +313,7 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 max-width: 318px;
 margin: 0 auto 72px auto;
-padding-top: 112px; 
+/* padding-top: 112px;  */
 }
 
   .hero-btn {
@@ -345,9 +349,9 @@ padding-top: 112px;
   }
      .hero__sections {
   
-    padding-top: 24px;
-    padding-bottom: 96px;
-    margin-bottom: 96px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    /* margin-bottom: 96px;  */
     min-height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -358,9 +362,9 @@ url(../images/mobile-first/hero-mobile1x.jpg);
  
   /*  <!-- features --> */
   
-  .features-list {
+  /* .features-list {
     padding-bottom: 96px;
-  }
+  } */
 
   .description {
     padding-bottom: 72px;
@@ -372,6 +376,9 @@ color: #434455;
       }
 
       /* our team---------- */
+     .section-title {
+      padding-top: 96px;
+     }
 
       .team_img {
         display: block;
@@ -671,7 +678,7 @@ color: #FFFFFF;
 width: 494px;
 margin-top: 0;
 margin: 0 auto 40px auto;
-padding-top: 187px;
+/* padding-top: 187px; */
 /* padding-bottom: 48px; */
    }
 
@@ -769,6 +776,24 @@ flex-basis:calc((100%-24px)/2);
 
  @media screen and (min-width: 1200px) {
 
+.hero__sections {
+  padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+  .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    width: 494px;
+    margin-top: 0;
+    margin: 0 auto 40px auto;
+    /* padding-top: 187px; */
+    /* padding-bottom: 48px; */
+       }
 
 .hero-title {
   font-size: 56px;
@@ -835,9 +860,9 @@ flex-basis: calc((100% - 72px) / 4);
 
 /* Works section------------------------------*/
  
-.section-title {
+/* .section-title {
     margin-bottom: 72px;
-}
+} */
 .works-list {
   display: flex;
   gap: 24px;
@@ -1130,6 +1155,11 @@ color: #434455;
         padding-top: 12px;
       }
 
+      .hero__sections {
+        padding-top: 112px;
+        padding-bottom: 108px;
+      }
+
   /* COSTOMER--------------- */
 
 .customer-section {
@@ -1268,7 +1298,6 @@ color: #434455;
  .mailing-title {
   margin-top: 72px;
   margin-bottom: 16px;
-  margin-left: 80px;
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
@@ -1435,7 +1464,7 @@ color: #434455;
 }   
 
 .section-title {
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 .section-title {
   font-weight: 700;

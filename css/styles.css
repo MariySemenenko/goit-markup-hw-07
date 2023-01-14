@@ -136,11 +136,13 @@ body {
     line-height: 0;
   }
   .mobile-menu {
+    display: flex;
+    flex-direction: column;
     position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: 1000;
-    max-height: 796px;
+    /* max-height: 796px; */
     top: 0;
     left: 0;
     background-color: rgba(255, 255, 255, 1);
@@ -149,6 +151,11 @@ body {
     pointer-events: none;
     transition: opacity 250ms linear, visibility 250ms linear;
   }
+
+  .div_margin {
+    margin-top: 0 auto;
+  }
+  
 
   .mobile-menu.is-open {
     opacity: 1;
@@ -196,8 +203,7 @@ body {
 /* ul */
    .social-list-mobile {
     display: flex;
-
-  margin-top: 48px;
+    margin-top: 48px;
   }
 
   /* a */
@@ -226,7 +232,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
-    height: 100%;
   }
 
   .mobile-menu-close-btn {
@@ -404,8 +409,12 @@ color: #434455;
         justify-content: center;
       }
 
+.team-item:not(:last-child) {
+  margin-bottom: 72px;
+}
+
       .team-item {
-        margin-bottom: 72px;
+        /* margin-bottom: 72px; */
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
       }

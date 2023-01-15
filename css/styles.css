@@ -190,7 +190,7 @@ body {
     padding-bottom: 40px;
     color: #4D5AE5;
     transition: color 250ms linear, visibility 250ms linear;
-     padding-top: 284px; 
+     /* padding-top: 284px;  */
   }  
 
   .contacts-link-mobile {
@@ -202,6 +202,7 @@ body {
    .social-list-mobile {
     display: flex;
     margin-top: 48px;
+    flex-wrap: wrap;
   }
 
   /* a */
@@ -1842,7 +1843,8 @@ color: #434455;
 
 .modal {
   position: absolute;
-  width: 408px;
+  max-width: 408px;
+  width: calc(100% - 36px);
   top: 50%;
   left: 50%;
 

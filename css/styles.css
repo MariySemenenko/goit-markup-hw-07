@@ -155,7 +155,8 @@ body {
   }
 
   .div_margin {
-    margin-top: 0 auto;
+    /* margin-top: 0 auto; */
+    display: flex;
   }
   
 

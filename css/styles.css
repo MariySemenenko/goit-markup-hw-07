@@ -176,6 +176,10 @@ body {
   .nav-link-mobile:focus {
     color: var(--link-hover-color);
   }
+
+
+
+
 /* ========================================================================================================== */
   .contacts-link-mobile-tel {
      display: block; 
@@ -298,12 +302,10 @@ body {
   .mailing-form {
   display: block; 
   }
-}
+
 
 /* =========================================================== */
 
-/* 0-767 */
-@media screen and (max-width: 767px) {
 
 .section {
   padding-top: 96px;
@@ -1182,6 +1184,10 @@ color: #434455;
         padding-top: 112px;
         padding-bottom: 108px;
       }
+
+      /* --------------- */
+
+      
 
   /* COSTOMER--------------- */
 

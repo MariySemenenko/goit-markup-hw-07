@@ -386,9 +386,9 @@ color: #434455;
       }
 
       /* our team---------- */
-     .section-title {
+     /* .section-title {
       padding-top: 96px;
-     }
+     } */
 
       .team_img {
         display: block;
@@ -503,6 +503,7 @@ color: #434455;
   display: block;
   justify-content: space-between;
   padding-top: 16px;
+  width: 100%;
 }
 
 /* MAILING------------------------ */
@@ -517,7 +518,7 @@ color: #434455;
 }
 
 .mailing-input {
-  min-width: 396px;
+  /* min-width: 396px; */
     margin: auto;
   padding: 8px 16px;
   background-color: transparent;
@@ -746,10 +747,7 @@ color: #434455;
   }
 
   /* FEATURES */
-  .features {
-  padding-bottom: 96px;
-  padding-top: 96px;
-}
+
 .features-list {
   display:flex;
      flex-wrap:wrap;
@@ -1259,6 +1257,15 @@ color: #434455;
   max-height: 260px;
   object-fit: cover;
   object-position: center;
+}
+
+.features {
+  /* padding-bottom: 96px; */
+  padding-top: 96px;
+}
+
+.section {
+  padding-top: 96px;
 }
 
  /* FOOTER------------------- */

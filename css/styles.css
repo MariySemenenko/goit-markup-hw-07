@@ -1162,11 +1162,13 @@ color: #434455;
       padding-top: 24px;
         padding-bottom: 18px;
         display: block;
-        position: relative;
       }
-      /* .nav-link.no-decoration::after {
+       .nav-link.no-decoration {
         position: relative; 
-      } */
+      } 
+      .nav-link.no-decoration:hover::after {
+        opacity: 1;
+      }
   
       /* HERO */
 

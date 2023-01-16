@@ -1139,7 +1139,7 @@ color: #434455;
       }
 
 /* підкреслення--------------- */
-      .nav-link.no-decoration::after {
+      .nav-link.no-decoration.current::after {
         display: block;
         position: absolute;
         content: "";
@@ -1163,10 +1163,10 @@ color: #434455;
         padding-bottom: 18px;
         display: block;
       }
-       .nav-link.no-decoration {
+       .nav-item {
         position: relative; 
       } 
-      .nav-link.no-decoration:hover::after {
+      .nav-link.no-decoration.current::after {
         opacity: 1;
       }
   

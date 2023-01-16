@@ -150,9 +150,6 @@ body {
     transition: transform 250ms ease-in-out;
   }
   
-  .social_wrap {
-    display: flex;
-  }
   .mobile-menu.is-open {
     transform: translateX(0);
   }

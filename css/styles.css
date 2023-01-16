@@ -1138,7 +1138,7 @@ color: #434455;
     color: #434455;
       }
 
-
+/* підкреслення--------------- */
       .nav-link.no-decoration::after {
         display: block;
         position: absolute;
@@ -1162,14 +1162,12 @@ color: #434455;
       padding-top: 24px;
         padding-bottom: 18px;
         display: block;
+        position: relative;
       }
-      .nav-link.no-decoration::after {
+      /* .nav-link.no-decoration::after {
         position: relative; 
-      }
-      .nav-link.no-decoration:hover::after {
-        opacity: 1;
-      }
-
+      } */
+  
       /* HERO */
 
       .hero__sections {
@@ -1385,10 +1383,10 @@ color: #434455;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-left: 16px;
+  padding-right: 16px; */
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 

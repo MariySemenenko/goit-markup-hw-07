@@ -108,7 +108,6 @@ body {
 /* ========================================= */
   /* 0-1199 */
   @media screen and (max-width: 1199px) {
- /* <!-- features --> */
  .icon-communication {
   display: none;
 }
@@ -174,10 +173,7 @@ body {
     color: var(--link-hover-color);
   }
 
-
-
-
-/* ========================================================================================================== */
+/* ======================================== */
   .contacts-link-mobile-tel {
      display: block; 
     font-weight: 600;
@@ -187,7 +183,6 @@ body {
     padding-bottom: 40px;
     color: #4D5AE5;
     transition: color 250ms linear, visibility 250ms linear;
-     /* padding-top: 284px;  */
   }  
 
   .contacts-link-mobile {
@@ -214,11 +209,6 @@ body {
     height: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   } 
-  /* li */
-  /* .social-list-item-mobile:not(:last-child) {
-    padding-right: 56px;
-    padding-bottom: 40px;
-  } */
 
   .mobile-menu-conteiner {
     position: relative;
@@ -319,7 +309,6 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 max-width: 318px;
 margin: 0 auto 72px auto;
-/* padding-top: 112px;  */
 }
 
   .hero-btn {
@@ -365,15 +354,6 @@ margin: 0 auto 72px auto;
 url(../images/mobile-first/hero-mobile1x.jpg);
   } 
 
-
-
- 
-  /*  <!-- features --> */
-  
-  /* .features-list {
-    padding-bottom: 96px;
-  } */
-
   .description {
     padding-bottom: 72px;
     font-weight: 500;
@@ -382,11 +362,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
       }
-
-      /* our team---------- */
-     /* .section-title {
-      padding-top: 96px;
-     } */
 
       .team_img {
         display: block;
@@ -412,7 +387,6 @@ color: #434455;
 }
 
       .team-item {
-        /* margin-bottom: 72px; */
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
       }
@@ -499,12 +473,10 @@ color: #434455;
 
    .mailing-form {
   display: block;
-  justify-content: space-between;
   padding-top: 16px;
   width: 100%;
+  max-width: 396px;
 }
-
-/* MAILING------------------------ */
 
 .mailing-title {
   color: #ffffff;
@@ -812,8 +784,7 @@ flex-basis:calc((100%-24px)/2);
     width: 494px;
     margin-top: 0;
     margin: 0 auto 40px auto;
-    /* padding-top: 187px; */
-    /* padding-bottom: 48px; */
+
        }
 
 .hero-title {
@@ -881,9 +852,6 @@ flex-basis: calc((100% - 72px) / 4);
 
 /* Works section------------------------------*/
  
-/* .section-title {
-    margin-bottom: 72px;
-} */
 .works-list {
   display: flex;
   gap: 24px;
@@ -926,7 +894,6 @@ img {
   background: #F4F4FD;
 }
  .title-front {
-  /* margin-bottom: 8px; */
   font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -1142,9 +1109,7 @@ img {
    row-gap: 64px;
    justify-content: center;
   }
-  /* .team-item {
-    flex-basis: calc((100% - 24px) / 2);
-  } */
+
   .item-description {
     padding-top: 32px;
     padding-right: 16px;
@@ -1183,18 +1148,10 @@ color: #434455;
 
       /* HERO */
 
-      /* .hero-title {
-        padding-top: 12px;
-      } */
-
       .hero__sections {
         padding-top: 112px;
         padding-bottom: 108px;
       }
-
-      /* --------------- */
-
-      
 
   /* COSTOMER--------------- */
 
@@ -1270,7 +1227,6 @@ color: #434455;
 }
 
 .features {
-  /* padding-bottom: 96px; */
   padding-top: 96px;
 }
 
@@ -1981,7 +1937,8 @@ color: #434455;
   margin-bottom: 24px;
   color: rgba(117, 117, 117, 1);
   font-size: 12px;
-  width: 400px;
+  max-width: 400px;
+  flex-wrap: wrap;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
